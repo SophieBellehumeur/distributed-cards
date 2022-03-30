@@ -14,13 +14,15 @@ header {
 main h1 {
   font-family: Denk One;
   color: #623b0c;
-  margin-left: 1.5rem;
+  margin: 1.5rem;
 }
 
 h2 {
   list-style-type: none;
   color: #623b0c;
   font-family: Denk One;
+  text-align: left;
+  padding: 1em;
 }
 
 ol {
@@ -37,15 +39,32 @@ li {
   flex-direction: column;
   justify-content: flex-start;
   background-color: #fff;
-  padding; 1.125rem;
   border: 2px solid #623b0c;
   border-radius: 8px 8px 8px 8px;
   background-color: #ede3db;
-  align-items: center;
   flex-wrap: wrap;
   flex-grow: 1;
 }
 
+li p {
+  font-family: Georgia;
+  color: #000;
+  margin: 1.5rem;
+}
+
 img {
   width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+li a {
+  color: #fff;
+  background-color: #623b0c;
+  padding: .75em;
+  text-decoration: none;
+  border-radius: 8px;
+  text-align: left;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
