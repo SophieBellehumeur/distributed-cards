@@ -1,28 +1,30 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
+  font-family: "Denk One", normal;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-header {
-
+body {
+  margin: 0;
 }
 
 main h1 {
-  font-family: Denk One;
+  font-family: "Denk One";
   color: #623b0c;
-  margin: 1.5rem;
+  margin: 0;
+  padding: .5em;
 }
 
 h2 {
   list-style-type: none;
   color: #623b0c;
-  font-family: Denk One;
+  font-family: "Denk One";
   text-align: left;
-  padding: 1em;
+  padding-left: .75em;
 }
 
 ol {
@@ -30,17 +32,17 @@ ol {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 1rem;
-  margin: 0;
-  padding; 1rem 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: .6em;
 }
 
 li {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: #fff;
   border: 2px solid #623b0c;
-  border-radius: 8px 8px 8px 8px;
+  border-radius: 8px;
   background-color: #ede3db;
   flex-wrap: wrap;
   flex-grow: 1;
@@ -49,22 +51,29 @@ li {
 li p {
   font-family: Georgia;
   color: #000;
-  margin: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: .75rem;
+  padding-top: .75rem;
 }
 
 img {
   width: 100%;
   padding-left: 1rem;
   padding-right: 1rem;
+  margin-bottom: -1.5rem;
 }
 
 li a {
   color: #fff;
+  font-family: Georgia;
   background-color: #623b0c;
-  padding: .75em;
+  padding: .6em;
   text-decoration: none;
   border-radius: 8px;
   text-align: left;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
+  margin-bottom: .75rem;
+  width: 90%;
 }
