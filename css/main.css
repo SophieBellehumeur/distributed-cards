@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: "Denk One", normal;
+  font-family: Georgia, serif;
 }
 
 *, *::before, *::after {
@@ -61,7 +61,8 @@ img {
   width: 100%;
   padding-left: 1rem;
   padding-right: 1rem;
-  margin-bottom: -1.5rem;
+  margin: 0;
+  height: 255px;
 }
 
 li a {
@@ -76,4 +77,6 @@ li a {
   margin-right: 1.5rem;
   margin-bottom: .75rem;
   width: 90%;
+  position: relative;
+  bottom: 2px;
 }
